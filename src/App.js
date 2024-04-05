@@ -7,7 +7,7 @@ import { WorkExperience } from './components/WorkExperience/WorkExperience';
 import { Education } from './components/Education/Education';
 import { Skill } from './components/Skill/Skill';
 import { Project } from './components/Project/Project';
-import { Blog } from './components/Blog/Blog';
+// import { Blog } from './components/Blog/Blog';
 import { Certification } from './components/Certification/Certification';
 import { ContactMe } from './components/ContactMe/ContactMe';
 import { Footer } from './components/Footer/Footer';
@@ -48,13 +48,13 @@ function App() {
           <section id={links[4].urlId}>
             <Project />
           </section>
-          <section id={links[5].urlId}>
+          {/* <section id={links[5].urlId}>
             <Blog />
-          </section>
-          <section id={links[6].urlId}>
+          </section> */}
+          <section id={links[5].urlId}>
             <Certification />
           </section>
-          <section id={links[7].urlId}>
+          <section id={links[6].urlId}>
             <ContactMe />
           </section>
           <Footer />

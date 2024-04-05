@@ -31,18 +31,12 @@ export const links = [
     },
     {
         id: 5,
-        text: 'Blogs',
-        url: '#blogs',
-        urlId: 'blogs'
-    },
-    {
-        id: 6,
         text: 'Certificates',
         url: '#certificates',
         urlId: 'certificates'
     },
     {
-        id: 7,
+        id: 6,
         text: 'Contact Me',
         url: '#contactMe',
         urlId: 'contactMe'
