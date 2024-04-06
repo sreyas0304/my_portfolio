@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.46090876.css",
+    "main.js": "/my_portfolio/static/js/main.fc7a7e7f.js",
+    "static/media/tcet_1.jpg": "/my_portfolio/static/media/tcet_1.6edfc75b1889b6cad52f.jpg",
+    "static/media/iu.jpg": "/my_portfolio/static/media/iu.4a181d2ccbd1f36823cb.jpg",
+    "static/media/sreyas_image.jpg": "/my_portfolio/static/media/sreyas_image.588df8d30b21612bf2a3.jpg",
+    "index.html": "/my_portfolio/index.html",
+    "main.46090876.css.map": "/my_portfolio/static/css/main.46090876.css.map",
+    "main.fc7a7e7f.js.map": "/my_portfolio/static/js/main.fc7a7e7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46090876.css",
+    "static/js/main.fc7a7e7f.js"
+  ]
+}
