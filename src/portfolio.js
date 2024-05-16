@@ -54,7 +54,7 @@ export const portfolio = {
             cpi: null,
             image: dalhousie_university_image,
             imageAlt: "Dalhousie University Logo and Text",
-            transcriptLink: "https://drive.google.com/file/d/1B-nDlWFzkbo9UoEF1VFU2O5YiEkHgd0W/view?usp=sharing",
+            transcriptLink: "https://drive.google.com/file/d/1rPp1RYka5PPWY2MSLi0tNSQ9lNWOwn2x/view?usp=sharing",
             degreeCertiLink: null
         },
         {
@@ -88,6 +88,16 @@ export const portfolio = {
             projectAbout: "CRNY Dashboard is a data-driven project aimed at understanding and addressing the needs of New York's artist community through comprehensive survey data analysis. Leveraging advanced data visualization techniques, the project delves into the demographics, financial wellness, and COVID-19 impact on artists in the region. From applicant demographics to financial safety nets and caregiving responsibilities, each aspect is meticulously examined to uncover insights crucial for supporting artists. The project utilizes Python for data preprocessing and SQL for data manipulation, culminating in captivating visualizations created using Microsoft's Power BI platform. By shedding light on the challenges and opportunities faced by artists, this project paves the way for informed decision-making and targeted interventions to foster the growth and sustainability of the arts community in New York.",
             projectGitHubLink: "https://github.com/sreyas0304/CRNY-Survey-Data-Analysis-.git",
             projectDeploymentLink: "https://app.powerbi.com/links/z-iLpN2fgg?ctid=1113be34-aed1-4d00-ab4b-cdd02510be91&pbi_source=linkShare&bookmarkGuid=1ccb26f8-39e0-4653-856e-7a7190288014"
+        },
+        {
+            projectName: "Bank Loan Payment Analysis",
+            projectTechnologies: ["Tableau", "Python", "SQL", "Github"],
+            projectAWSTechnologies:null,
+            projectGCPTechnologies: null,
+            projectDuration: "Apr 2024 - May 2024",
+            projectAbout: "Developed a comprehensive Bank Loan Payment Analysis Dashboard to facilitate data-driven decision-making and optimize lending strategies within the bank. The dashboard consists of three interconnected modules: Summary, Overview, and Details, providing stakeholders with a holistic view of lending operations. This project showcases expertise in data analysis, dashboard development, and project management, contributing to enhanced operational efficiency and strategic decision-making within the organization.",
+            projectGitHubLink: "https://github.com/sreyas0304/Bank-Loan-Payment-Analysis-Dashboard",
+            projectDeploymentLink: "https://public.tableau.com/views/BankLoanDataAnalysis_17154944361490/Details?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
         },
         {
             projectName: "Spotify End-to-End Data Pipeline",
