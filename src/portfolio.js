@@ -61,11 +61,11 @@ export const portfolio = {
             name: "Indiana University | Bloomington, US",
             years: "August 2022 - May 2024",
             course: "Master of Computer Science",
-            cgpa: "3.55/4.00",
+            cgpa: "3.56/4.00",
             cpi: null,
             image: dalhousie_university_image,
-            imageAlt: "Dalhousie University Logo and Text",
-            transcriptLink: "https://drive.google.com/file/d/1rPp1RYka5PPWY2MSLi0tNSQ9lNWOwn2x/view?usp=sharing",
+            imageAlt: "Indiana University Logo and Text",
+            transcriptLink: null,
             degreeCertiLink: null
         },
         {
@@ -76,15 +76,15 @@ export const portfolio = {
             cgpa: "9.67/10.00",
             cpi: null,
             image: gujarat_technological_university_image,
-            imageAlt: "Gujarat Technological University Logo and Text",
-            transcriptLink: "https://drive.google.com/file/d/13hSg2kBPL_AlSNWpSoPZ02UqnW0SjzyB/view?usp=sharing",
-            degreeCertiLink: "https://drive.google.com/file/d/1fVSo0CBJ4llzVKcBauD0ju9iPdKDd4jJ/view?usp=sharing"
+            imageAlt: "TCET Logo and Text",
+            transcriptLink: null,
+            degreeCertiLink: null
         },
     ],
     skills: {
         technologies: ["R", "Python", "HTML", "CSS", "JavaScript", "SQL", "NoSQL", "SAS"],
         tools: ["AWS", "Snowflake", "Databricks", "Tableau", "Power BI", "VS Code", "Anaconda", "MS Excel" ],
-        frameworks: ["Snowpark", "Airflow", "Spark", "React.js", "Express.js", "Node.js"],
+        frameworks: ["Snowpark", "Airflow", "Spark", "REST Apis", "Hadoop", "React.js", "Express.js", "Node.js"],
         databases: ["PostgreSQL", "SQLite", "NoSQL", "MySQL", "Neo4j", "Oracle"],
         industryKnowledge: ["Agile Methodologies", "Algorithms", "Continuous Integration and Continuous Delivery (CI/CD)", "Data Structures", "Data Modelling", "Extract Transform Load(ETL)", "Data Cleaning", "Data Orchestration", "Data Analysis", "Object-Oriented Programming (OOP)"],
         versionControl: ["Git", "GitHub", "GitLab", "AWS CodeBuild"]
@@ -139,10 +139,34 @@ export const portfolio = {
             projectAbout: "In the Football Transfer Market Analysis project, we delved into the global football transfer markets, focusing on the top 5 leagues. Leveraging a decade's worth of data, our analysis unveiled spending patterns, strategic decisions, and correlations between investments and on-field success. Through meticulous data visualization using Python, Matplotlib, Plotly Dash, and Tableau Public, we provided comprehensive insights to stakeholders, empowering them to make informed decisions in the dynamic landscape of football transfers.",
             projectGitHubLink: "https://github.com/sreyas0304/Football-Transfermarket-Analysis.git",
             projectDeploymentLink: null
+        },
+        {
+            projectName: "Weather Data Ingestion Pipeline",
+            projectTechnologies: ["Python","AWS", "Git", "GitHub", "Airflow", "SQL"],
+            projectAWSTechnologies: ["AWS S3", "AWS Redshift ", "AWS Glue", "AWS Codebuild", "AWS Managed Apache Airflow"],
+            projectGCPTechnologies: null,
+            projectDuration: "May 2024",
+            projectAbout: "The Weather Data Ingestion Pipeline project automates the extraction, transformation, and loading (ETL) of 5 days' worth of weather data in JSON format from the OpenWeatherMap website using API calls, converting it into CSV format, and storing it in an S3 bucket. Orchestrated by Apache Airflow, the pipeline ensures seamless execution of tasks, while a triggered Glue job transfers the data to Redshift for further analysis. This scalable solution leverages AWS services to maintain data integrity and reliability, empowering organizations with timely and actionable weather insights for informed decision-making.",
+            projectGitHubLink: "https://github.com/sreyas0304/Weather-Data-Ingestion-Pipeline.git",
+            projectDeploymentLink: null
         }
     ],
     blogs: [],
     certifications: [
+        {
+            name: "Big Data 101",
+            issuer: "Cognitive Class (IBM)",
+            issueDate: "May 31, 2024",
+            credentialId: "513e2f3a8456403f9204d0946316b5f8",
+            credentialLink: "https://courses.cognitiveclass.ai/certificates/513e2f3a8456403f9204d0946316b5f8",
+        },
+        {
+            name: "PwC Power BI Simulation",
+            issuer: "Forage",
+            issueDate: "May 28, 2024",
+            credentialId: "2dKpsbzTcuw5TTWhf",
+            credentialLink: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_dE4qWGZoWpPtZADRq_1716872519228_completion_certificate.pdf",
+        },
         {
             name: "Lakehouse Fundamentals",
             issuer: "Databricks",

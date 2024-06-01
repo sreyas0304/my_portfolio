@@ -36,7 +36,7 @@ export const Education = () => {
                                         <Typography variant="body1" display="block"><span className={classes.boldText}>CGPA:</span> {edu.cgpa}{(edu.cpi) ? (<span> | <span className={classes.boldText}>CPI:</span> {edu.cpi}</span>) : null}</Typography>
                                         <div className={classes.marginTopEight}>
                                             {(edu.degreeCertiLink) ? <Button className={classes.marginRightEight} color="primary" variant="contained" size="small" href={edu.degreeCertiLink} target="_blank">View Degree Certificate</Button> : null}
-                                            <Button color="primary" variant="contained" size="small" href={edu.transcriptLink} target="_blank">View Transcript</Button>
+                                            {(edu.transcriptLink) ?<Button color="primary" variant="contained" size="small" href={edu.transcriptLink} target="_blank">View Transcript</Button>: null}
                                         </div>
                                     </CardContent>
                                 </Card>
