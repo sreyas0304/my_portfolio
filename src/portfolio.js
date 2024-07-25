@@ -18,6 +18,17 @@ export const portfolio = {
     },
     experiences: [
         {
+            company: "CrowdDoing | San Francisco, US",
+            position: "Data Analytics Engineer | June 2024 - Present",
+            projects: [],
+            work: [
+                "Designed an end-to-end pipeline using S3, Docker, and Apache Airflow for efficient, scalable data storage, processing, and analysis of book data and metadata.",
+                "Integrated PySpark for large-scale text extraction and Ollama for high-quality vector embeddings, improving the ability to analyze book content.",
+                "Built a knowledge graph with Neo4j to store vector embeddings and relationships, enabling users to conduct comprehensive and contextual searches within the application",
+                "Utilized OpenAI APIs (RAG, LangChain) to extract meaningful responses to user queries, significantly enhancing the application’s search functionality and user experience."
+            ]
+        },
+        {
             company: "PwC Power BI Job Simulation on Forage | Remote",
             position: "Data Analyst | May 2024",
             projects: [],
@@ -30,15 +41,16 @@ export const portfolio = {
         },
         {
             company: "Indiana University - Bloomington | Indiana, US",
-            position: "Research Assistant | Jun 2023 - Aug 2023",
+            position: "Research Assistant | Jun 2023 - May 2024",
             projects: [],
             work: [
-                "Conducted comprehensive data collection activities focusing on geological, hydrological, and ecological aspects of regions in Botswana and South Africa. Consolidated diverse datasets into a unified format suitable for analysis, ensuring data integrity and consistency.",
+                "Conducted comprehensive data collection activities focusing on spectroscopy and DNA experiments data from animal tusk samples. Consolidated diverse datasets into a unified format suitable for analysis, ensuring data integrity and consistency.",
                 "Leveraged Python and TensorFlow to design and deploy a sophisticated machine learning model. The model was specifically tailored to distinguish elephant ivory from other animal species' ivory with remarkable precision, achieving a notable classification accuracy of 95%.",
                 "Employed advanced data modeling techniques to structure and refine the collected data. Conducted data transformation processes to enhance data quality and prepare it for analytical purposes, ensuring compatibility with subsequent analytical methodologies.",
-                "Utilized ArcGIS to visualize spatial data and create informative maps. Applied geographic analysis techniques to gain insights into the spatial distribution of geological, hydrological, and ecological features, facilitating a deeper understanding of the regions under study.",
-                "Collaborated with interdisciplinary teams comprising geologists, hydrologists, ecologists, and data scientists to ensure comprehensive analysis and interpretation of the collected data. Integrated diverse perspectives to enrich analytical outcomes and generate holistic insights.",
+                "Utilized Tableau and ArcGIS to visualize geographical patterns and create informative maps. Applied geographic analysis techniques to gain insights into the spatial distribution of elephant tusk samples, facilitating a deeper understanding of poaching activities.",
+                "Collaborated with interdisciplinary teams comprising biologists, conservationists, and data scientists to ensure comprehensive analysis and interpretation of the collected data. Integrated diverse perspectives to enrich analytical outcomes and generate holistic insights.",
                 "Evaluated the impact of the project by assessing the effectiveness of the developed machine learning model in ivory classification. Analyzed the implications of the findings on wildlife conservation efforts and proposed potential strategies for mitigating illegal ivory trade based on the obtained insights."
+
             ]
         },
         {
@@ -83,13 +95,33 @@ export const portfolio = {
     ],
     skills: {
         technologies: ["R", "Python", "HTML", "CSS", "JavaScript", "SQL", "NoSQL", "SAS"],
-        tools: ["AWS", "Snowflake", "Databricks", "Tableau", "Power BI", "VS Code", "Anaconda", "MS Excel" ],
-        frameworks: ["Snowpark", "Airflow", "Spark", "REST Apis", "Hadoop", "React.js", "Express.js", "Node.js"],
-        databases: ["PostgreSQL", "SQLite", "NoSQL", "MySQL", "Neo4j", "Oracle"],
+        tools: ["AWS", "Docker", "Snowflake", "Databricks", "Tableau", "Power BI", "VS Code", "Anaconda", "MS Excel", "Gen AI" ],
+        frameworks: ["Snowpark", "Airflow", "Spark", "REST Apis", "Hadoop", "Kafka",  "React.js", "Express.js", "Node.js", "LangChain"],
+        databases: ["PostgreSQL", "SQLite", "NoSQL", "MySQL", "Neo4j", "Oracle", "Vector Databases"],
         industryKnowledge: ["Agile Methodologies", "Algorithms", "Continuous Integration and Continuous Delivery (CI/CD)", "Data Structures", "Data Modelling", "Extract Transform Load(ETL)", "Data Cleaning", "Data Orchestration", "Data Analysis", "Object-Oriented Programming (OOP)"],
         versionControl: ["Git", "GitHub", "GitLab", "AWS CodeBuild"]
     },
     projects: [
+        {
+            projectName: "Telecom Firm Churn Analysis",
+            projectTechnologies: ["Python", "SQL", "Power BI"],
+            projectAWSTechnologies:null,
+            projectGCPTechnologies: null,
+            projectDuration: "July 2024",
+            projectAbout: "The End-to-End Churn Analysis project aims to tackle customer attrition by leveraging advanced data analytics and machine learning techniques. Focused on a telecom firm's customer data, the project encompasses creating a robust ETL process using SQL Server to manage and transform raw data. This data is then visualized through Power BI, offering insights at demographic, geographic, and service levels to understand customer behavior and identify churn patterns. The analysis extends to developing a churn prediction model using Random Forest in Python, enabling the anticipation of future churners. This comprehensive approach not only helps in visualizing and analyzing key metrics such as total customers, churn rate, and new joiners but also aids in strategic decision-making to enhance customer retention and loyalty across various industries.",
+            projectGitHubLink: "https://github.com/sreyas0304/Telecom-Firm-Churn-Analysis.git",
+            projectDeploymentLink: null
+        },
+        {
+            projectName: "SmartCity Realtime Streaming Data Ingestion",
+            projectTechnologies: ["Python", "Kafka", "Spark", "Docker", "AWS", "Tableau"],
+            projectAWSTechnologies:null,
+            projectGCPTechnologies: null,
+            projectDuration: "June 2024",
+            projectAbout: "Developed and optimized a real-time car travel data simulation system using Apache Kafka and Spark, achieving 50% increase in data processing speed. Utilized AWS S3, Glue, and Redshift for efficient data storage and transformation, enabling advanced analysis with Tableau.",
+            projectGitHubLink: "https://github.com/sreyas0304/SmartCity-Realtime-Streaming-DataIngestion-.git",
+            projectDeploymentLink: null
+        },
         {
             projectName: "CRNY Dashboard Development",
             projectTechnologies: ["Microsoft Power BI", "Python", "SQL", "Github"],
@@ -153,6 +185,13 @@ export const portfolio = {
     ],
     blogs: [],
     certifications: [
+        {
+            name: "AWS Cloud Practitioner Essentials",
+            issuer: "Amazon Web Services",
+            issueDate: "June 23, 2024",
+            credentialId: null,
+            credentialLink: "https://drive.google.com/file/d/1VD9NFQfAHpC6BJmFtZ7Svy3hUIqwaZTr/view?usp=drive_link",
+        },
         {
             name: "Big Data 101",
             issuer: "Cognitive Class (IBM)",
