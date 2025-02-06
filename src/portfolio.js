@@ -14,7 +14,7 @@ export const portfolio = {
         // facebookLink: "https://www.facebook.com/dhrumil.shah1998/",
         // twitterLink: "https://twitter.com/dhrumil_shah_98",
         heading: "Hi all, I'm Sreyas",
-        paragraph: "Experienced data analyst and engineer adept at navigating complex datasets, leveraging advanced tools and methodologies to derive actionable insights and drive informed decision-making. Let's connect to transform your data into valuable assets!",
+        paragraph: "Experienced Data Engineer with a strong background in cloud technologies, specializing in AWS and GCP. Proficient in designing and implementing scalable ETL/ELT pipelines, data warehousing, and advanced analytics solutions. Skilled in leveraging cutting-edge technologies such as Apache Airflow, Spark, and Kafka for efficient data processing and real-time streaming. Demonstrated expertise in integrating AI and machine learning models, to enhance data extraction and search capabilities. Committed to data quality and governance, with a track record of improving data integrity and optimizing query performance in large-scale systems.",
     },
     experiences: [
         {
@@ -22,10 +22,11 @@ export const portfolio = {
             position: "Data Analytics Engineer | June 2024 - Present",
             projects: [],
             work: [
-                "Designed an end-to-end pipeline using S3, Docker, and Apache Airflow for efficient, scalable data storage, processing, and analysis of book data and metadata.",
-                "Integrated PySpark for large-scale text extraction and Ollama for high-quality vector embeddings, improving the ability to analyze book content.",
-                "Built a knowledge graph with Neo4j to store vector embeddings and relationships, enabling users to conduct comprehensive and contextual searches within the application",
-                "Utilized OpenAI APIs (RAG, LangChain) to extract meaningful responses to user queries, significantly enhancing the application’s search functionality and user experience."
+                "Architected and implemented a scalable ETL pipeline using AWS S3, Docker, and Apache Airflow, streamlining the processing of large volumes of book data and metadata.",
+                "Integrated advanced Large Language Models (LLMs) for intelligent data extraction and consolidation, resulting in a 40% improvement in context and quote extraction accuracy.",
+                "Developed a sophisticated knowledge graph using Neo4j for storing vector embeddings and complex relationships, enhancing the depth and interconnectivity of book information.",
+                "Implemented an AI-powered search system by integrating OpenAI APIs and Retrieval-Augmented Generation (RAG) models with LangChain, enabling highly contextual and relevant search capabilities.",
+                "Designed and deployed an intelligent query routing system to differentiate between contextual and data-specific queries, significantly improving search precision and user experience."
             ]
         },
         {
@@ -41,15 +42,16 @@ export const portfolio = {
         },
         {
             company: "Indiana University - Bloomington | Indiana, US",
-            position: "Research Assistant | Jun 2023 - May 2024",
+            position: "Data Engineer | Jan 2023 - May 2024",
             projects: [],
             work: [
-                "Conducted comprehensive data collection activities focusing on spectroscopy and DNA experiments data from animal tusk samples. Consolidated diverse datasets into a unified format suitable for analysis, ensuring data integrity and consistency.",
-                "Leveraged Python and TensorFlow to design and deploy a sophisticated machine learning model. The model was specifically tailored to distinguish elephant ivory from other animal species' ivory with remarkable precision, achieving a notable classification accuracy of 95%.",
-                "Employed advanced data modeling techniques to structure and refine the collected data. Conducted data transformation processes to enhance data quality and prepare it for analytical purposes, ensuring compatibility with subsequent analytical methodologies.",
-                "Utilized Tableau and ArcGIS to visualize geographical patterns and create informative maps. Applied geographic analysis techniques to gain insights into the spatial distribution of elephant tusk samples, facilitating a deeper understanding of poaching activities.",
-                "Collaborated with interdisciplinary teams comprising biologists, conservationists, and data scientists to ensure comprehensive analysis and interpretation of the collected data. Integrated diverse perspectives to enrich analytical outcomes and generate holistic insights.",
-                "Evaluated the impact of the project by assessing the effectiveness of the developed machine learning model in ivory classification. Analyzed the implications of the findings on wildlife conservation efforts and proposed potential strategies for mitigating illegal ivory trade based on the obtained insights."
+                "Architected a scalable, cloud-based ETL pipeline for student and HR data using AWS services (S3, Glue, Lambda, Step Functions, Redshift), efficiently processing data from PeopleSoft Oracle databases.",
+                "Automated infrastructure provisioning with AWS CloudFormation, reducing deployment time by 70% and improving reliability and reproducibility of the setup.",
+                "Developed AWS Glue ETL jobs for data extraction, transformation (including PII handling), and loading into Redshift. Implemented incremental loading, decreasing processing time by 60%.",
+                "Designed a Kimball-style dimensional model in Redshift, optimizing query performance through strategic use of distribution styles, sorting keys, and automated maintenance operations.",
+                "Established a comprehensive Role-Based Access Control (RBAC) system, enhancing data governance and security compliance with granular access policies and audit logging.",
+                "Developed and executed an extensive suite of data quality checks, implementing automated validations for completeness, consistency, and accuracy of data.",
+                "Achieved significant improvements in data integrity, consistently monitoring over 500,000 records weekly, reducing data discrepancies by 85%, and fostering a culture of data quality across the organization."
 
             ]
         },
@@ -85,7 +87,7 @@ export const portfolio = {
             name: "Thakur College of Engineering & Technology | Mumbai, IN",
             years: "August 2018 - May 2022",
             course: "Bachelors in Computer Engineering",
-            cgpa: "9.67/10.00",
+            cgpa: "3.80/4.00",
             cpi: null,
             image: gujarat_technological_university_image,
             imageAlt: "TCET Logo and Text",
@@ -94,14 +96,25 @@ export const portfolio = {
         },
     ],
     skills: {
-        technologies: ["R", "Python", "HTML", "CSS", "JavaScript", "SQL", "NoSQL", "SAS"],
-        tools: ["AWS", "Docker", "Snowflake", "Databricks", "Tableau", "Power BI", "VS Code", "Anaconda", "MS Excel", "Gen AI" ],
-        frameworks: ["Snowpark", "Airflow", "Spark", "REST Apis", "Hadoop", "Kafka",  "React.js", "Express.js", "Node.js", "LangChain"],
-        databases: ["PostgreSQL", "SQLite", "NoSQL", "MySQL", "Neo4j", "Oracle", "Vector Databases"],
+        technologies: ["R", "Python", "HTML", "CSS", "JavaScript", "SQL", "NoSQL", "SAS", "Shell Scripting"],
+        tools: ["AWS", "GCP", "Docker", "Snowflake", "Databricks", "Tableau", "Power BI", "VS Code", "Anaconda", "MS Excel", "Gen AI" ],
+        frameworks: ["Hadoop", "Hive", "Flink", "Airflow", "Spark", "REST Apis", "Kafka",  "React.js", "Express.js", "Node.js", "LangChain", "Terraform", "Jenkins", "OpenAI", "dbt(Data Build Tool)"],
+        databases: ["PostgreSQL", "SQL Server", "MongoDB", "MySQL", "Neo4j", "Oracle", "Vector Databases", "SSMS"],
+        cloudservices: ["S3", "EC2", "RDS", "Athena", "Redshift", "Kinesis", "EMR", "Lambda", "Glue", "Step Functions", "SQS", "SNS", "CloudFormation", "MWAA", "GCS", "BigQuery", "Compute ENgine", "Pub/Sub", "Dataproc", "Datafusion", "Cloud Composer"],
         industryKnowledge: ["Agile Methodologies", "Algorithms", "Continuous Integration and Continuous Delivery (CI/CD)", "Data Structures", "Data Modelling", "Extract Transform Load(ETL)", "Data Cleaning", "Data Orchestration", "Data Analysis", "Object-Oriented Programming (OOP)"],
         versionControl: ["Git", "GitHub", "GitLab", "AWS CodeBuild"]
     },
     projects: [
+        {
+            projectName: "Global Health Data ETL Pipleine",
+            projectTechnologies: ["Python", "SQL", "Terraform", "Airflow", "dbt"],
+            projectAWSTechnologies:null,
+            projectGCPTechnologies: ["Compute Engine", "Cloud Storage", "BigQuery", "Looker Studio"],
+            projectDuration: "December 2024",
+            projectAbout: "This project implements an ELT (Extract, Load, Transform) data pipeline to process and analyze global health data using Google Cloud Platform (GCP), Apache Airflow, and dbt (data build tool). The pipeline extracts data from Google Cloud Storage (GCS), loads it into BigQuery, and applies transformations to create region-specific tables and views for analysis.",
+            projectGitHubLink: "https://github.com/sreyas0304/Global_Disease_Analysis",
+            projectDeploymentLink: null
+        },
         {
             projectName: "Telecom Firm Churn Analysis",
             projectTechnologies: ["Python", "SQL", "Power BI"],
@@ -185,6 +198,13 @@ export const portfolio = {
     ],
     blogs: [],
     certifications: [
+        {
+            name: "AWS Data Engineer Associate",
+            issuer: "Amazon Web Services",
+            issueDate: "October 25, 2024",
+            credentialId: null,
+            credentialLink: "https://drive.google.com/file/d/1tRpihGXoXhT44NeyeRLIaE0XJM2R1Nz_/view?usp=drive_link",
+        },
         {
             name: "AWS Cloud Practitioner Essentials",
             issuer: "Amazon Web Services",

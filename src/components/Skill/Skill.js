@@ -42,6 +42,7 @@ export const Skill = () => {
                 {getSkillsStack("Tools", portfolio.skills.tools)}
                 {getSkillsStack("Frameworks", portfolio.skills.frameworks)}
                 {getSkillsStack("Databases", portfolio.skills.databases)}
+                {getSkillsStack("Cloud Services", portfolio.skills.cloudservices)}
                 {getSkillsStack("Industry Knowledge", portfolio.skills.industryKnowledge)}
                 {getSkillsStack("Version Control", portfolio.skills.versionControl)}
             </div>
