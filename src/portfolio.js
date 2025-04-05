@@ -45,13 +45,13 @@ export const portfolio = {
             position: "Data Engineer | Jan 2023 - May 2024",
             projects: [],
             work: [
-                "Architected a scalable, cloud-based ETL pipeline for student and HR data using AWS services (S3, Glue, Lambda, Step Functions, Redshift), efficiently processing data from PeopleSoft Oracle databases.",
+                "Architected a scalable, cloud-based ETL pipeline for student and HR data using AWS services (S3, Glue, Lambda, Step Functions, Redshift), efficiently processing data from PeopleSoft SIS systems",
                 "Automated infrastructure provisioning with AWS CloudFormation, reducing deployment time by 70% and improving reliability and reproducibility of the setup.",
                 "Developed AWS Glue ETL jobs for data extraction, transformation (including PII handling), and loading into Redshift. Implemented incremental loading, decreasing processing time by 60%.",
                 "Designed a Kimball-style dimensional model in Redshift, optimizing query performance through strategic use of distribution styles, sorting keys, and automated maintenance operations.",
                 "Established a comprehensive Role-Based Access Control (RBAC) system, enhancing data governance and security compliance with granular access policies and audit logging.",
                 "Developed and executed an extensive suite of data quality checks, implementing automated validations for completeness, consistency, and accuracy of data.",
-                "Achieved significant improvements in data integrity, consistently monitoring over 500,000 records weekly, reducing data discrepancies by 85%, and fostering a culture of data quality across the organization."
+                "Achieved significant improvements in data integrity, consistently monitoring over 10,000 records weekly, reducing data discrepancies by 85%, and fostering a culture of data quality across the organization."
 
             ]
         },
