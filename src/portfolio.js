@@ -18,6 +18,17 @@ export const portfolio = {
     },
     experiences: [
         {
+            company: "Vosyn Inc | Chicago, IL",
+            position: "Data Engineer | Feb 2024 - Apr 2025",
+            projects: [],
+            work: [
+                "Designed and implemented a scalable PostgreSQL database schema for an HR management system, ensuring ACID compliance and normalized data structures to track employee and payroll details.",
+                "Led migration of internal HR tool from development to production environment, collaborating with cross-functional teams to implement DB changes, ensure data integrity, enforce security protocols, and document PostgreSQL backup strategies on GCE.",
+                "Engineered automated ETL pipelines using Cloud Functions and Dataflow with validation checks to streamline intern hour analytics, employee onboarding, and share issuance reporting cutting manual effort and ensuring data quality across financialmetrics such as hourly pay, leaves, and billable hours.",
+                "Provided leadership and documentation support by designing SOA, delivering KT sessions to new engineers, and leading team discussions on translating stakeholder requirements into technical solutions."
+            ]
+        },
+        {
             company: "CrowdDoing | San Francisco, US",
             position: "Data Analytics Engineer | June 2024 - Present",
             projects: [],
