@@ -22,10 +22,13 @@ export const portfolio = {
             position: "Data Engineer | Feb 2024 - Apr 2025",
             projects: [],
             work: [
-                "Designed and implemented a scalable PostgreSQL database schema for an HR management system, ensuring ACID compliance and normalized data structures to track employee and payroll details.",
-                "Led migration of internal HR tool from development to production environment, collaborating with cross-functional teams to implement DB changes, ensure data integrity, enforce security protocols, and document PostgreSQL backup strategies on GCE.",
-                "Engineered automated ETL pipelines using Cloud Functions and Dataflow with validation checks to streamline intern hour analytics, employee onboarding, and share issuance reporting cutting manual effort and ensuring data quality across financialmetrics such as hourly pay, leaves, and billable hours.",
-                "Provided leadership and documentation support by designing SOA, delivering KT sessions to new engineers, and leading team discussions on translating stakeholder requirements into technical solutions."
+                "Designed and implemented a scalable PostgreSQL relational OLTP database, ensuring ACID compliance, normalization, and optimized query performance for employee and payroll data.",
+                "Led database migration of an internal HR tool from development to production on Google Cloud (GCE), collaborating with cross-functional teams to implement schema changes, enforce data integrity, and establish PostgreSQL backup and recovery strategies.",
+                "Built production-grade ETL pipelines using Apache Airflow and Google Cloud Storage (GCS) to automate ingestion and transformation of HR, finance, and operations data, enabling cross-departmental analytics and reporting.",
+                "Engineered end-to-end data pipelines for batch workloads, automating ingestion and transformation of structured and unstructured data for compliance and operational reviews.",
+                "Designed workflows for unstructured data ingestion, extracting text from PDFs and integrating LLMs to transform them into semi-structured JSON formats.",
+                "Integrated unstructured data into a knowledge graph (Neo4j), storing entities, relationships, and vector embeddings to enable contextual and entity specific queries.",
+                "Provided technical leadership by creating architecture documentation, conducting knowledge transfer (KT) sessions, and translating stakeholder requirements into scalable data engineering solutions."
             ]
         },
         {
@@ -56,13 +59,13 @@ export const portfolio = {
             position: "Data Engineer | Jan 2023 - May 2024",
             projects: [],
             work: [
-                "Architected a scalable, cloud-based ETL pipeline for student and HR data using AWS services (S3, Glue, Lambda, Step Functions, Redshift), efficiently processing data from PeopleSoft SIS systems",
-                "Automated infrastructure provisioning with AWS CloudFormation, reducing deployment time by 70% and improving reliability and reproducibility of the setup.",
-                "Developed AWS Glue ETL jobs for data extraction, transformation (including PII handling), and loading into Redshift. Implemented incremental loading, decreasing processing time by 60%.",
-                "Designed a Kimball-style dimensional model in Redshift, optimizing query performance through strategic use of distribution styles, sorting keys, and automated maintenance operations.",
-                "Established a comprehensive Role-Based Access Control (RBAC) system, enhancing data governance and security compliance with granular access policies and audit logging.",
-                "Developed and executed an extensive suite of data quality checks, implementing automated validations for completeness, consistency, and accuracy of data.",
-                "Achieved significant improvements in data integrity, consistently monitoring over 10,000 records weekly, reducing data discrepancies by 85%, and fostering a culture of data quality across the organization."
+                "Architected a cloud based ETL pipeline to integrate student enrollment data from PeopleSoft Oracle SIS and survey data from OCQ APIs into an AWS S3 Data Lake, enabling unified analytics of academic trends.",
+                "Designed and developed a Redshift data warehouse and data marts to support analysis of student enrollment across majors and departments, and evaluate course and instructor performance",
+                "Built AWS Glue ETL jobs for extraction, transformation (including PII data masking and handling), and incremental loading of SIS and survey datasets into Amazon Redshift, reducing processing time by 60%.",
+                "Orchestrated complex ETL workflows using AWS Step Functions, ensuring reliability, fault tolerance, and streamlined execution across multiple data pipelines.",
+                "Implemented dimensional data modeling (star schema) in Redshift, optimizing OLAP query performance with distribution styles, sort keys, and indexing.",
+                "Enforced fine-grained access control and data governance policies using AWS Lake Formation and RBAC, ensuring compliance with institutional and federal data standards.",
+                "Developed automated data quality and validation checks that improved dataset reliability, ensuring accuracy of 10,000+ records weekly for downstream analytics teams."
 
             ]
         },
