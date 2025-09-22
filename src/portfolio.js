@@ -19,7 +19,7 @@ export const portfolio = {
     experiences: [
         {
             company: "Vosyn Inc | Chicago, IL",
-            position: "Data Engineer | Feb 2024 - Apr 2025",
+            position: "Data Engineer | Jun 2024 - Apr 2025",
             projects: [],
             work: [
                 "Designed and implemented a scalable PostgreSQL relational OLTP database, ensuring ACID compliance, normalization, and optimized query performance for employee and payroll data.",
