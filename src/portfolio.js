@@ -19,7 +19,7 @@ export const portfolio = {
     experiences: [
         {
             company: "Vosyn Inc | Chicago, IL",
-            position: "Data Engineer | Jun 2024 - Apr 2025",
+            position: "Data Engineer | Jun 2024 - Present",
             projects: [],
             work: [
                 "Designed and implemented a scalable PostgreSQL relational OLTP database, ensuring ACID compliance, normalization, and optimized query performance for employee and payroll data.",
@@ -33,7 +33,7 @@ export const portfolio = {
         },
         {
             company: "CrowdDoing | San Francisco, US",
-            position: "Data Analytics Engineer | June 2024 - Present",
+            position: "Data Analytics Engineer | June 2024 - Jan 2025",
             projects: [],
             work: [
                 "Architected and implemented a scalable ETL pipeline using AWS S3, Docker, and Apache Airflow, streamlining the processing of large volumes of book data and metadata.",
